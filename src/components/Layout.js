@@ -11,9 +11,7 @@ export function Layout({ children, description, title }) {
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>{children}</main>
-
       <Footer />
     </div>
   );

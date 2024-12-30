@@ -24,8 +24,8 @@
   "license": "MIT",
   "name": "next-js-to-ts",
   "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "build": "next build",
-    "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
     "test": "jest"
